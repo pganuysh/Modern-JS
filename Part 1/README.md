@@ -151,6 +151,7 @@ It is an open source framework based on Chrome V8 JavaScript engine.
 Web server in a few seconds:  
 
 ```javascript
+// server.js
 const http = require('http');
 
 const hostname = '127.0.0.1';
@@ -166,6 +167,9 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 ```
+> Execute script.js
+> **node server.js**  
+
 >#### Exercise 1
 Develop an api to return a list of events. Each event should contain label, description and date
 
