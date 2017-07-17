@@ -149,6 +149,8 @@ It is an open source framework based on Chrome V8 JavaScript engine.
 > brew install node 
 
 Web server in a few seconds:  
+> Execute script.js  
+> **node server.js**  
 
 ```javascript
 // server.js
@@ -167,11 +169,9 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 ```
-> Execute script.js
-> **node server.js**  
 
->#### Exercise 1
-Develop an api to return a list of events. Each event should contain label, description and date
+> #### Exercise 1
+> Develop an api to return a list of events. Each event should contain label, description and date  
 
 ### npm
 [Node package manager](https://www.npmjs.com/) allows to share and reuse JS code
