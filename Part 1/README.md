@@ -103,7 +103,7 @@ const asyncFetch = (url) => {
     })
 }
 
-asyncFetch('https://user.api/user).then((user) =>
+asyncFetch('https://user.api/user').then((user) =>
     console.log(user)
 ).catch((error) => {
     console.log(error)
