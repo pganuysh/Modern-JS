@@ -1,7 +1,7 @@
 # Modern JS
 ## Course plan:
 The course contains the basics of modern JS.
-### [Part 1](./Part 1/README.md)
+### [Part 1](https://github.com/pganuysh/Modern-JS/blob/develop/Part%201/README.md)
 1. ECMAScript 6&7
     1.	Constants, block-scoped variables
     2.	Arrow Functions
@@ -42,7 +42,7 @@ The course contains the basics of modern JS.
     3.	Grid system
 
   
-###What is not covered:
+### What is not covered:
 
 * Security
 * Performance
