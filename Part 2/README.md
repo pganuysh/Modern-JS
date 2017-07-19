@@ -16,13 +16,14 @@ yarn add -D webpack webpack-dev-server babel-core babel-loader babel-plugin-synt
 ```
 Create [webpack.config.js](./calendar/webpack.config.js) file 
 # React 
-It is JavaScript framework for building user interfaces. React uses JSX to describe what the UI should look like. It operates with a virtual DOM.
+It is JavaScript library for building user interfaces. React uses JSX to describe what the UI should look like. It operates with a virtual DOM.
 > Install React
 > 
 > ```bash
 > yarn add react react-dom prop-types
 > ```
-### Components
+
+### Components
 React components are independent, reusable pieces of code that allow you to create UI.
 #### Class components
 Extends React.Component(or React.PureComponent) class. Operate with a state and props.
@@ -61,17 +62,20 @@ import React from 'react'
 const Calendar = () => (
     <div>Calendar</div>
 )
-```### State, Props
+```
+### State, Props
 **this.props** object contains the props that were defined by the caller of this component.  
 **this.props.children** is a special prop, typically defined by the child tags in the JSX expression rather than in the tag itself.  
 
 The **state** contains data specific to this component that may change over time. The state is user-defined, and it should be a plain JavaScript object.
 To update a components state you must use **this.setState** method
-# Redux 
+
+# Redux 
 > Install redux  
 > **yarn add redux**  
 
-Redux is a predictable state container for JavaScript apps.### Store, Actions, Reducers
+Redux is a predictable state container for JavaScript apps.
+### Store, Actions, Reducers
 **Store** is an object which contains a whole app state. The state can be described as a plain object.
 
 ```javascript
@@ -112,7 +116,8 @@ const reducer = (state = [], action) {
     }
 }
 ```
-### React-redux
+
+### React-redux
 > Install react-redux  
 > **yarn add react-redux**  
 
@@ -144,7 +149,8 @@ const mapStateToProps = (state) => ({
 export default connect(mapStateToProps)(Calendar);
 ```
 **Dumb components** knows nothing about Redux  
-### React-router
+
+### React-router
 > Install react-router  
 > **yarn add react-router react-router-dom**  
 
@@ -164,7 +170,8 @@ from 'react-router-dom'
         <Redirect to="/" />
     </Switch>
 </Router>
-```### Async actions
+```
+### Async actions
 > Install redux-thunk  
 > **yarn add redux-thunk**  
 
@@ -186,7 +193,9 @@ const save = (event) => ({
     }
 })
 
-```### Redux-formFramework which connects a form data with a Redux state.
+```
+### Redux-form
+Framework which connects a form data with a Redux state.
 
 **formReducer** - reducer function. Updates Redux state based on received actions  
 **reduxForm** - wrapper function which accepts configuration and wraps your form component  
