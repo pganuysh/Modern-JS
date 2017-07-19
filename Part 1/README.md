@@ -248,5 +248,5 @@ module.exports = {
 };
 ```
 
-> #### Homework 1
+> #### Exercise 2
 > Add an endpoint to the api to request an event by id. Node **url** module may be useful

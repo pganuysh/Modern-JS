@@ -1,7 +1,7 @@
 # Modern JS
 ## Course plan:
 The course contains the basics of modern JS.
-### [Part 1](https://github.com/pganuysh/Modern-JS/blob/develop/Part%201/README.md)
+### [Part 1](./Part%201/README.md)
 1. ECMAScript 6&7
     1.	Constants, block-scoped variables
     2.	Arrow Functions
@@ -20,7 +20,7 @@ The course contains the basics of modern JS.
     3.	yarn
 4.	Webpack
 
-### Part 2
+### [Part 2](./Part%202/README.md)
 1.	React 
     1.	Components
     2.	State, Props
@@ -82,7 +82,7 @@ console.log(1 == '1')
 > Latest available versions of JS libraries/frameworks are used  
  
 * [Node.js 8.1.4](https://nodejs.org/en/)
-* [Webpack 3.0.0](https://webpack.js.org/)
+* [Webpack 3.3.0](https://webpack.js.org/)
 * [React 15.6.1](https://facebook.github.io/react/)
 * [Redux 3.7.2](https://github.com/reactjs/redux)
 * [Redux Form 7.0.0](http://redux-form.com/7.0.0/)
